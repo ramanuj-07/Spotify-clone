@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 
 const getSpotifyToken = async () => {
-  const clientId = '0f15c26d450342b6b6ffc3adab61ae07';
-  const clientSecret = 'dcb15ee4d1f84a85b73f2d8ba94d939b';
+  const clientId = '';
+  const clientSecret = '';
   const authUrl = 'https://accounts.spotify.com/api/token';
 
   const response = await fetch(authUrl, {
